@@ -1,1 +1,218 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 0;
+background-color:#3d1724;
+}
+a img
+{border: none;}
+img 
+ {display: block;}
+
+a:link {
+    color: #fff;
+}
+a:visited {
+    color: #fff;
+}
+a:hover {
+    color: #fff;
+}
+a:active {
+    color: #fff;
+}
+
+#wrapper
+{
+    margin: auto;
+    width: 100%;
+	position: absolute;
+	bottom: -460px;
+}
+
+@media screen and (min-width: 480px)
+{
+body
+{
+    overflow:hidden;
+    background-image:url('purpleWallpaper6.jpg');
+    background-repeat:no-repeat;
+	scroll: no-scroll;
+    background-size: 100% 100%;
+}
+#heading
+{
+    display: block;
+    position: relative;
+	top: 5px;
+    margin: auto;
+	max-width: 100%;
+	height: auto;
+	z-index: 1;
+}
+.img_wrapper
+{
+
+}
+#infoSmall
+{display:none;}
+#infoBig
+{
+font-size:1.3em;text-align:center;color:white;position:relative;top:-12px;
+text-shadow: 0 0 0.2em #000, 0 0 0.2em #000, 0 0 0.2em #000;
+}
+#centre-image
+{
+    margin: auto;
+	max-width: 100%;
+    height: auto;
+}
+.img85{width:200px;height:85px;}
+.img75{width:200px;height:75px;}
+#crmk
+{
+	opacity: 0;
+    display: block;
+    position: relative;
+	top:-380px;left:-120px;
+    margin: auto;
+	width:200px;height:75px;
+}
+#mixcloud
+{
+	opacity: 0;
+    display: block;
+    position: relative;
+	top:-370px;left:-120px;
+    margin: auto;
+	width:200px;height:85px;
+}
+#twitter
+{
+	opacity: 0;
+    display: block;
+    position: relative;
+	top:-355px;left:-120px;
+    margin: auto;
+	width:200px;height:85px;
+}
+#charts
+{
+    opacity: 0;
+    display: block;
+    position: relative;
+	top:-630px;left:120px;
+    margin: auto;
+	width:200px;height:75px;
+}
+#blog
+{
+	opacity: 0;
+    display: block;
+    position: relative;
+	top:-615px;left:120px;
+    margin: auto;
+	width:200px;height:85px;
+}
+#contact
+{
+	opacity: 0;
+    display: block;
+    position: relative;
+	top:-605px;left:120px;
+    margin: auto;
+	width:200px;height:85px;
+}
+#archive 
+{ 
+	background-image: url('box5.png'); 
+	position:absolute;
+	bottom:0px; right:0px;
+    margin: auto;
+	width:400px;height:150px;
+	z-index:2;
+}
+#poster
+{
+	background-image: url('liveJune2017.png'); 
+	position:relative;
+	top:350px; right:400px;
+    margin: auto;
+	width:250px;height:364px;
+	z-index:-5;
+}
+#wrapper2{display:none;}
+#substitute{display:none;}
+}
+
+@media screen and (max-width: 480px)
+{
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+html {overflow: scroll;overflow-x: hidden;}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+body {overflow-x:hidden;
+    background-image:url('purpleWallpaperFast.jpg');
+    background-repeat:no-repeat;
+	background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#heading
+{
+    display: block;
+    position: fixed;
+	top: 5px;
+    margin: auto;
+	max-width: 100%;
+	height: auto;
+	z-index: 1;
+}
+#infoBig
+{display:none;}
+#infoSmall
+{
+font-size:1.3em;text-align:center;color:white;position:relative;top:28px;left:10px;
+text-shadow: 0 0 0.2em #000, 0 0 0.2em #000, 0 0 0.2em #000;
+}
+#wrapper2
+{
+	margin: 0 auto;
+	display:block;
+	height:1167px;width:360px;
+}
+#drawers
+{
+	margin: 0 auto;
+	background-image:url('http://res.cloudinary.com/sandstorm/image/upload/v1525032272/drawers4d_kttwr4.png');
+	background-repeat:no-repeat;
+	height:1167px;width:350px;
+}
+.floatA{opacity: 0;float:left; height:115px;width:350px;}
+.floatB{opacity: 0;float:left; height:140px;width:350px;}
+#archive{display:none;}
+#centre-image{display:none;}
+#crmk{display:none;}
+#mixcloud{display:none;}
+#facebook{display:none;}
+#charts{display:none;}
+#blog{display:none;}
+#contact{display:none;}
+#poster{display:none;}
+}
 
