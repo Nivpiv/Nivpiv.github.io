@@ -41,7 +41,7 @@ a:active {
 body
 {
     overflow:hidden;
-    background-image:url('purpleWallpaper6.jpg');
+    background-image:url('https://res.cloudinary.com/sandstorm/image/upload/v1581101493/purpleWallpaper6_cufv35.jpg');
     background-repeat:no-repeat;
 	scroll: no-scroll;
     background-size: 100% 100%;
@@ -131,7 +131,7 @@ text-shadow: 0 0 0.2em #000, 0 0 0.2em #000, 0 0 0.2em #000;
 }
 #archive 
 { 
-	background-image: url('box5.png'); 
+	background-image: url('https://res.cloudinary.com/sandstorm/image/upload/v1581101526/box5_dp4sfp.png'); 
 	position:absolute;
 	bottom:0px; right:0px;
     margin: auto;
@@ -168,7 +168,7 @@ html {overflow: scroll;overflow-x: hidden;}
     background: #FF0000;
 }
 body {overflow-x:hidden;
-    background-image:url('purpleWallpaperFast.jpg');
+    background-image:url('https://res.cloudinary.com/sandstorm/image/upload/v1581101571/purpleWallpaperFast_sitazm.jpg');
     background-repeat:no-repeat;
 	background-attachment: fixed;
     background-size: 100% 100%;
@@ -215,4 +215,3 @@ text-shadow: 0 0 0.2em #000, 0 0 0.2em #000, 0 0 0.2em #000;
 #contact{display:none;}
 #poster{display:none;}
 }
-
