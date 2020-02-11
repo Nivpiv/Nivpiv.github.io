@@ -43,7 +43,7 @@ a:active {
 body
 {
     overflow:hidden;
-    background-image:url('purpleWallpaper6.jpg');
+    background-image:url('https://res.cloudinary.com/sandstorm/image/upload/v1483113537/purpleWallpaper6_n6ucff.jpg');
     background-repeat:no-repeat;
 	scroll: no-scroll;
     background-size: 100% 100%;
@@ -129,7 +129,7 @@ text-shadow: 0 0 0.2em #000, 0 0 0.2em #000, 0 0 0.2em #000;
 }
 #archive 
 { 
-	background-image: url('box5.png'); 
+	background-image: url('https://res.cloudinary.com/sandstorm/image/upload/v1483113523/box5_jc08es.png'); 
 	position:absolute;
 	bottom:0px; right:0px;
     margin: auto;
@@ -165,7 +165,7 @@ body:before {
   width: 100%;
   height: 100%;
   z-index: -10;
-  background: url(beauty1a.jpg) no-repeat center center;
+  background: url(https://res.cloudinary.com/sandstorm/image/upload/v1581408852/beauty1a_abda7u.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
